@@ -10,8 +10,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 // import logo from "../assets/img/logo.svg";
 import logo from "../assets/img/BMine.png";
 import linkedin from "../assets/img/nav-icon1.svg";
-import facebook from "../assets/img/nav-icon2.svg";
-import instagram from "../assets/img/nav-icon3.svg";
+// import facebook from "../assets/img/nav-icon2.svg";
+// import instagram from "../assets/img/nav-icon3.svg";
 import github from "../assets/img/githubNav.png";
 
 function NavBar() {

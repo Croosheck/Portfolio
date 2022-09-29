@@ -88,14 +88,15 @@ function Projects() {
 			imgUrl: rjsp1,
 			demoUrl: "https://croose.netlify.app/",
 			gitUrl:
-				"https://github.com/Croosheck/ReactJS/tree/master/react-travel-website",
+				"https://github.com/Croosheck/React.js/tree/master/react-travel-website",
 		},
 		{
 			title: "Deliciouss App",
 			description: "Recipe Finder",
 			imgUrl: rjsp2,
 			demoUrl: "https://deliciouss-app.netlify.app/",
-			gitUrl: "https://github.com/Croosheck/ReactJS/tree/master/deliciouss-app",
+			gitUrl:
+				"https://github.com/Croosheck/React.js/tree/master/deliciouss-app",
 		},
 
 		{
@@ -104,14 +105,14 @@ function Projects() {
 			imgUrl: rjsp3,
 			demoUrl: "https://authentication-react-website.netlify.app/",
 			gitUrl:
-				"https://github.com/Croosheck/ReactJS/tree/master/07-authentication",
+				"https://github.com/Croosheck/React.js/tree/master/07-authentication",
 		},
 		{
 			title: "Delivery Website",
 			description: "Ordering system with Firebase Real-time Database",
 			imgUrl: rjsp4,
 			demoUrl: "https://mydelivery-site.netlify.app/",
-			gitUrl: "https://github.com/Croosheck/ReactJS/tree/master/Food-delivery",
+			gitUrl: "https://github.com/Croosheck/React.js/tree/master/Food-delivery",
 		},
 	];
 
