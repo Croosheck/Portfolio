@@ -24,7 +24,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
 	return (
 		<Col lg={12} md={12} xl={12} sm={12}>
 			<div className="newsletter-bx wow slideInUp">
-				<Row>
+				<Row className="newsletter-row">
 					<Col lg={8} md={10} xl={12} sm={12}>
 						<h3>Subscribe to my Newsletter & Never miss any future updates!</h3>
 						{status === "sending" && <Alert>Sending...</Alert>}

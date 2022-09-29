@@ -203,7 +203,7 @@ function Projects() {
 								<div
 									className={
 										isVisible
-											? "animate__animated animate__lightSpeedInRight"
+											? "animate__animated animate__fadeIn"
 											: "animate__animated animate__fadeOut"
 									}
 								>
