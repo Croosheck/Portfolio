@@ -90,7 +90,7 @@ function Contact() {
 						</TrackVisibility>
 					</Col>
 					<Col size={12} md={6}>
-						<TrackVisibility offset={500}>
+						<TrackVisibility offset={550}>
 							{({ isVisible }) => (
 								<div
 									className={
