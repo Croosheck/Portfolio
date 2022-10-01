@@ -11,6 +11,7 @@ import nextjs from "../assets/img/nextjs.png";
 import css from "../assets/img/css.png";
 import html from "../assets/img/html.png";
 import github from "../assets/img/github.png";
+import es6 from "../assets/img/es6.png";
 
 import colorSharp from "../assets/img/color-sharp.png";
 
@@ -103,6 +104,11 @@ function Skills() {
 								<div className="item">
 									<img src={html} alt="skillImage" />
 									<h3>HTML</h3>
+									<h5>Skilled</h5>
+								</div>
+								<div className="item">
+									<img src={es6} alt="skillImage" />
+									<h3>ECMAScript6</h3>
 									<h5>Skilled</h5>
 								</div>
 							</Carousel>
