@@ -41,24 +41,24 @@ function Skills() {
 
 	return (
 		<section className="skill" id="skills">
-			<Container>
+			<Container containerClass="carousel--container">
 				<Row>
 					<Col>
 						<div className="skill-bx">
 							<h2>Skills</h2>
-							{/* <p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-								enim ad minim veniam, quis nostrud exercitation ullamco laboris
-								nisi ut aliquip ex ea commodo consequat.
-							</p> */}
+							<p>
+								List of skills I learned, most used in the projects below.
+								<br /> Skilled - Frequently used
+								<br />
+								Beginner - In the process of learning
+							</p>
 							<Carousel
 								responsive={responsive}
 								infinite={true}
 								className="skill-slider"
 								containerClass="carousel-container"
-								// swipeable={false}
-								// draggable={false}
+								draggable={false}
+								removeArrowOnDeviceType="mobile"
 							>
 								<div className="item">
 									<img src={restapi} alt="skillImage" />
@@ -106,6 +106,9 @@ function Skills() {
 									<h5>Skilled</h5>
 								</div>
 							</Carousel>
+							<p style={{ color: "#2C68BC", fontSize: "18px" }}>
+								← swipe on mobile →
+							</p>
 						</div>
 					</Col>
 				</Row>

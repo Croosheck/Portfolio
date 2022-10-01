@@ -208,10 +208,7 @@ function Projects() {
 									}
 								>
 									<h2>Projects</h2>
-									{/* <p>
-										Lorem Ipsum is simply dummy text of the printing and
-										typesetting industry.
-									</p> */}
+									<p>Most of them are adjusted to desktops only.</p>
 									<Tab.Container id="projects-tabs" defaultActiveKey="first">
 										<Nav
 											variant="pills"
@@ -237,7 +234,7 @@ function Projects() {
 											}
 										>
 											<Tab.Pane eventKey="first">
-												<Row>
+												<Row className="projects--tabPane">
 													{jsProjects.map((project, index) => {
 														return (
 															<ProjectCard
@@ -253,7 +250,7 @@ function Projects() {
 												</Row>
 											</Tab.Pane>
 											<Tab.Pane eventKey="second">
-												<Row>
+												<Row className="projects--tabPane">
 													{reactjsProjects.map((project, index) => {
 														return (
 															<ProjectCard
@@ -269,7 +266,7 @@ function Projects() {
 												</Row>
 											</Tab.Pane>
 											<Tab.Pane eventKey="third">
-												<Row>
+												<Row className="projects--tabPane">
 													{rnProjects.map((project, index) => {
 														return (
 															<ProjectCard
