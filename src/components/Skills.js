@@ -47,7 +47,7 @@ function Skills() {
 						<div className="skill-bx">
 							<h2>Skills</h2>
 							<p>
-								List of skills I learned, most used in the projects below.
+								List of skills I did learn, most used in the projects below.
 								<br /> Skilled - Frequently used
 								<br />
 								Beginner - In the process of learning
