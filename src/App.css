@@ -280,6 +280,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Banner CSS ************/
+.spline-container {
+	/* background-color: rgb(0, 245, 94); */
+	position: absolute;
+	width: 45%;
+	height: 10%;
+	top: 0;
+	right: 30%;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.spline-obj {
+	/* background-color: rgba(102, 106, 103, 0.555); */
+}
+
 .banner {
 	margin-top: 0;
 	padding: 220px 0 100px 0;
@@ -861,6 +878,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 		max-width: 30%;
 		display: flex;
 		justify-content: center;
+	}
+
+	.spline-container {
+		/* background-color: rgb(0, 245, 94); */
+		width: 45%;
+		height: 10%;
+		top: 0;
+		right: -10%;
+		z-index: 0;
+		scale: 0.9;
 	}
 }
 

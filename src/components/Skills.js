@@ -42,7 +42,8 @@ function Skills() {
 
 	return (
 		<section className="skill" id="skills">
-			<Container containerClass="carousel--container">
+			{/* <Container containerClass="carousel--container"> */}
+			<Container>
 				<Row>
 					<Col>
 						<div className="skill-bx">

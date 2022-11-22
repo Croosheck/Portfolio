@@ -7,6 +7,7 @@ import TrackVisibility from "react-on-screen";
 
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
+import Spline from "@splinetool/react-spline";
 
 function Banner() {
 	const [loopNum, setLoopNum] = useState(0);
@@ -85,6 +86,12 @@ function Banner() {
 		<Router>
 			<section className="banner" id="home">
 				<Container>
+					<div className="spline-container">
+						<Spline
+							className="spline-obj"
+							scene="https://prod.spline.design/zvTc0DsW2vSvP1AR/scene.splinecode"
+						/>
+					</div>
 					<Row className="align-items-center">
 						<Col xc={12} md={6} xl={7}>
 							<TrackVisibility offset={offset}>
