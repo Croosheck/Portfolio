@@ -12,6 +12,7 @@ import css from "../assets/img/css.png";
 import html from "../assets/img/html.png";
 import github from "../assets/img/github.png";
 import es6 from "../assets/img/es6.png";
+import spline from "../assets/img/spline.png";
 
 import colorSharp from "../assets/img/color-sharp.png";
 
@@ -70,6 +71,11 @@ function Skills() {
 								<div className="item">
 									<img src={firebase} alt="skillImage" />
 									<h3>Firebase SDK</h3>
+									<h5>Skilled</h5>
+								</div>
+								<div className="item">
+									<img src={spline} alt="skillImage" id="spline-img" />
+									<h3>Spline</h3>
 									<h5>Skilled</h5>
 								</div>
 								<div className="item">
