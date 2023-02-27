@@ -167,6 +167,22 @@ function Contact() {
 												<button type="submit">
 													<span>{buttonText}</span>
 												</button>
+												<p className="contact-clause">
+													I respect your privacy and am committed to protecting
+													your personal data. By submitting this form, you agree
+													that I may process your personal information for the
+													purpose of contacting you. I will not share your
+													information with any third party, except as required
+													by law. I will keep your personal data for as long as
+													necessary to fulfill the purposes for which it was
+													collected. You have the right to access, correct, and
+													delete your personal information at any time. To
+													exercise these rights, please contact me at {`\n`}
+													<a href="mailto: krystian.kruszelnicki1@gmail.com">
+														this email
+													</a>
+													.
+												</p>
 											</Col>
 										</Row>
 									</form>

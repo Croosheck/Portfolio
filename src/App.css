@@ -697,6 +697,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact form button:hover::before {
 	width: 100%;
 }
+.contact-clause {
+	font-size: 0.8rem;
+	text-align: justify;
+	margin-top: 20px;
+}
 
 /************ Footer Css ************/
 .footer {
